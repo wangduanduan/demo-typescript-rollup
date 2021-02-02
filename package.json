@@ -1,28 +1,17 @@
 {
   "name": "demo-typescript-rollup",
   "version": "1.0.0",
-  "description": "Project which demonstrates Rollup bundling of TypeScript modules.",
   "main": "index.js",
+  "repository": "git@github.com:wangduanduan/demo-typescript-rollup.git",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "bundle" : "rollup -c",
-    "start" : "node dist/bundle.js"
+    "dev": "rollup -c"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BojanKomazec/demo-typescript-rollup.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BojanKomazec/demo-typescript-rollup/issues"
-  },
-  "homepage": "https://github.com/BojanKomazec/demo-typescript-rollup#readme",
+  "author": "wangduanduan <1779706607@qq.com>",
+  "license": "MIT",
   "devDependencies": {
-    "rollup": "^0.66.5",
-    "rollup-plugin-typescript": "^1.0.0",
-    "tslib": "^1.9.3",
-    "typescript": "^3.1.1"
+    "@rollup/plugin-typescript": "^8.1.1",
+    "rollup": "^2.38.3",
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.3"
   }
 }

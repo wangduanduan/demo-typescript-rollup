@@ -1,5 +1,4 @@
-function foo(s: string) {
-    console.log(s);
-};
+export function foo(s: string) {
+    console.log(s)
+}
 
-foo("Hello, world!");
